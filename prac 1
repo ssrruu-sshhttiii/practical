@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>My First Webpage</title>
+</head>
+<body>
+<h1>Srushti</h1>
+<h2>CD24054</h2>
+</body>
+<h3>1. Courses (Bulleted List)</h3>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+</ul>
+<h3>2. Courses List (Numbered List)</h3>
+<ol>
+<tabel border="1">
+<tr>
+<th>Sr No.</th>
+<th>Srushti</th>
+<th>CD24054</th>
+</tr>
