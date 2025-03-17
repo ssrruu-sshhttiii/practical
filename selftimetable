@@ -1,0 +1,69 @@
+<head>
+    <title>Practical 3</title>
+</head>
+<body>
+    <table border="1" align="center">                                                                                                                                                          
+        <tr>
+            <th>Day-time</th>
+            <th>7:30pm to 8:30</th>
+            <th>8:30 to 9:30</th>
+            <th>9:30 to 10:30</th>
+            <th>10:30 to 11:30</th>
+            <th>11:30 to 12:30</th>
+            <th>12:30 to 1:30</th>
+            <th>1:30 to 2:00</th>
+        </tr>
+        <tr>
+            <td align="center">Monday</td>
+            <td align="center">maths</td>
+            <td align="center">AP</td>
+            <td align="center">incomplete work</td>
+            <td rowspan="6" align="center">l<br>u<br>n<br>c<br>h<br></td>
+            <td align="center">walk</td>
+            <td colspan="2" align="center">homework</td>
+        </tr>
+        <tr>
+            <td align="center">Tuesday</td>
+            <td align="center">maths</td>
+            <td colspan="2" align="center">incomplete work</td>
+            <td align="center">revision</td>
+            <td colspan="2" align="center">physics</td>
+            
+        </tr>
+        <tr>
+            <td align="center">Wednesday</td>
+            <td align="center">acp</td>
+            <td colspan="2" align="center">homework</td>
+          
+            <td align="center">maths</td>
+            <td colspan="2" align="center">homework</td>
+        </tr>
+        <tr>
+            <td align="center">Thursday</td>
+            <td align="center">homework</td>
+            <td colspan="2" align="center">tv</td>
+          
+            <td align="center">homework</td>
+            <td colspan="2" align="center">APL</td>
+            
+        </tr>
+        <tr>
+            <td align="center">Friday</td>
+            <td colspan="2" align="center">homework</td>
+            <td align="center">tv</td>
+            <td align="center">maths</td>
+            <td align="center">pending work</td>
+            <td align="center">SPORTS</td>
+        </tr>
+        <tr>
+            <td align="center">Saturday</td>
+            <td colspan="2" align="center">pending work </td>
+            <td align="center">maths</td>
+        
+            <td align="center">tv</td>
+            <td colspan="2" align="center">walk</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
