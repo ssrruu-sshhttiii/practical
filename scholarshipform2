@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Scholarship Registration Form</title>
+</head>
+<body>
+    <h1>Scolarship Registration Form</h1>
+    <body>
+        <form>
+            <fieldset>
+                <legend>
+                    <h3>User Personal information</h3> </legend>
+                    <label for="name">Enter your full name:</label>
+                    <input type="text" id="name" name="name" required/><br>
+                    <label for="email">Enter your email:</label>
+                    <input type="email"id="email"name="email"required/><br>
+                    <label for="password">Enter your password:</label>
+                    <input type="password" id="password" name="pass" required/><br>
+                    <label for="confirmPassword">Confirm your password:</label>
+                    <input type="password"id="confirmPassword" name="confirmPass" required/><br>
+                    <label>Select your gender:</label>
+                    <dic class="gender-group">
+                        <input type="radio" name="gender" value="male"id="male" required/>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="female" id="female"/>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" value="female" id="others">
+                        <label for="others">Others</label><br>
+                    </div>
+                    <label for="dob">Select your Date Of Birth:</label>
+                    <input type="date" id="dob" name="dob" required/><br>
+                    <label for="address">Enter your address:</label>
+                    <textarea id="address" name="address" required></textarea><br>
+                    <input type="submit" value="submit"/>
+                    <legend>
+                        <h3> User Educational qualification</h3>
+                    </legend>
+                    <h4>10th qualification</h4>
+                    <label for="name">Total Marks:</label>
+                    <input type="text" name="marks" required/><br>
+                    <h4>12th qualification</h4>
+                    <label for="name">Total Marks:</label>
+                    <input type="text" name="marks" required/><br>
+                    <legend>
+                        <h3>Location </h3>
+                        <h4>Enter your Country</h4>
+                    <label for="country">Country:</label>
+                    <input type="country" name="country" required/><br>
+                    <h4>Enter your state </h4>
+                    <label for="state">State:</label>
+                    <input type="state" name="state" required/><br>
+                    <h4>Enter your city </h4>
+                    <label for="city">City:</label>
+                    <input type="city" name="city" required/><br>
+                    <h4>Enter your Pincode </h4>
+                    <loabel for="Pincode">Pincode:</label>
+                    <input type="pincode" name="pincode" required/><br>
+
+                    </legend>
+                </fieldset>
+            </form>
+    </body>
+</form>
+</body>
+</html>
