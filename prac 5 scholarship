@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scholarship Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      background-color: #fff;
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .gender {
+      display: flex;
+      gap: 15px;
+      margin-top: 5px;
+    }
+    .form-section {
+      margin-top: 20px;
+    }
+    .submit-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .submit-btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Scholarship Registration Form</h2>
+
+    <form action="#" method="POST" enctype="multipart/form-data">
+
+      <!-- User Personal Information -->
+      <div class="form-section">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+
+        <label>Gender:</label>
+        <div class="gender">
+          <label><input type="radio" name="gender" value="Male"> Male</label>
+          <label><input type="radio" name="gender" value="Female"> Female</label>
+          <label><input type="radio" name="gender" value="Others"> Others</label>
+        </div>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+      </div>
+
+      <!-- User Educational Info -->
+      <div class="form-section">
+        <label for="branch">Select Your Branch:</label>
+        <select id="branch" name="branch" required>
+          <option value="">-- Select Branch --</option>
+          <option value="EMtech">EMtech</option>
+          <option value="CSE">CSE</option>
+          <option value="IT">IT</option>
+          <option value="ETC">ETC</option>
+          <option value="Civil">Civil</option>
+          <option value="Mtech">Mtech</option>
+        </select>
+
+        <label for="ssc_marks">SSC % Marks:</label>
+        <input type="text" id="ssc_marks" name="ssc_marks" required>
+
+        <label for="hsc_marks">HSC % Marks:</label>
+        <input type="text" id="hsc_marks" name="hsc_marks" required>
+
+        <label for="btech_marks">B.Tech % Marks:</label>
+        <input type="text" id="btech_marks" name="btech_marks" required>
+
+        <label for="doc_upload">Upload 10th Qualification Document:</label>
+        <input type="file" id="doc_upload" name="doc_upload" accept=".pdf,.jpg,.jpeg,.png" required>
+
+        <label for="total_marks">Total Marks in 10th Qualification:</label>
+        <input type="text" id="total_marks" name="total_marks" required>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
