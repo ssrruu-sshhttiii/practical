@@ -1,0 +1,79 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tribute Page</title>
+        <style>
+            body{
+                font-family:Arial, Helvetica, sans-serif;
+                background-color: azure;
+                margin:0;
+                padding:0;
+            }
+            .container{
+                max-width: 900px;
+                margin: auto;
+                background: white;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            h1,h2{
+                text-align: center;
+                color: #333;
+            }
+            img{
+                display: block;
+                margin: 20px auto;
+                max-width: 50%;
+                height: 60%;
+                border-radius: 10px;
+            }
+            p{
+                line-height: 1.6;
+                color: #555;
+                text-align: justify;
+            }
+            ul{
+                color: #444;
+                padding-left: 40px;
+
+            }
+            footer{
+                text-align:center ;
+            margin-top:40px;
+            color: #888;
+            font-size: 0.9em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Neil Armstrong</h1>
+            
+            <img src="https://akm-img-a-in.tosshub.com/aajtak/images/photo_gallery/201907/1-1024_555_072019041402.jpg" alt="APJ Abdul Kalam">
+            <p>Neil Armstrong, a super-brave pilot, dreamed of flying high! He learned to fly planes,
+                 even super-fast ones, and became an astronaut. In 1969, he went on a rocket to the Moon!
+                  He became the first person to walk on it, saying famous words about a "small step" for him,
+                   but a "giant leap" for everyone. Even though he was a hero, he was very humble. 
+                   He taught others and inspired kids to dream big. When we look at the Moon, we remember
+                    his courage and how he showed us that amazing things are possible!
+                </p>
+                <h2>Major Achivements</h2>
+                <ul>
+                    <li>The Apollo 11 Mission:</li><br>
+                    <li>He stepped out of the spacecraft and onto the Moon's surface.</li><br>
+                    <li>He said those famous words, "That's one small step for (a) man, one giant leap for mankind.</li><br>
+                    <li>This meant that even though it was just one step for him, it was a huge achievement for all of humanity.</li><br>
+                    <li>Awarded Bharat Ratna, Padma Vibhushan, and Padma Bhushan</li><br>
+                    <li>Inspired millions through education, books, and lectures</li>  <br>    
+                </ul>
+                <p>
+                    Neil Armstrong's footprints on the Moon remind us that even the biggest dreams can come true."
+
+<h3 align="center">It means even little things you do can make a big difference!</h3>
+                </p>
+                <footer>
+                    A tribute page for Neil Armstrong
+                </footer>
+        </div>
+    </body>
+</html>
